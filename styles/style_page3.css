@@ -1,0 +1,83 @@
+.logo{
+    margin-top: 10px;
+    width: 250px;
+    margin-left: 40px;
+}
+.navbar{
+    background-color: #27323a;
+    height: 140px;
+    margin-top: -16px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    position: relative;
+}
+
+.navbar ul{
+    margin-right: 50px;
+    padding-top: 12px;
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    color: #F5F5F5;
+    text-transform: uppercase;
+}
+
+.navbar ul li::after{
+    content: '';
+    height: 3px;
+    width: 0;
+    background: #F47933;
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    transition: 0.3s;
+}
+.navbar ul li:hover::after{
+    width: 100%;
+}
+
+.title_{
+    font-family:'Courier New', Courier, monospace;
+    font-size: large;
+    margin-left: 43%;
+}
+.main_img{
+    width: 650px;
+    margin-top: 60px;
+    transition: 1s;
+}
+.main_img:hover{
+    transform: translateY(-30px);
+}
+.hd1{
+    margin-left: 700px;
+    margin-top: -450px;
+    font-family: 'Brush Script MT', cursive;
+    font-size: x-large;
+    color: #43494f;
+}
+.p_1{
+    margin-left: 720px;
+    color: #525960;
+    font-family: 'Brush Script MT', cursive;
+}
+.hd2{
+    margin-left: 700px;
+    margin-top: 50px;
+    font-family: 'Brush Script MT', cursive;
+    font-size: x-large;
+    color: #43494f;
+}
+.p_2{
+    margin-left: 720px;
+    color: #525960;
+    font-family: 'Brush Script MT', cursive;
+}
